@@ -10,7 +10,7 @@
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 
-from FoodPandaStore.credentials import credentials
+from FoodPandaStore.FoodPandaStore.credentials import credentials
 
 
 BOT_NAME = 'FoodPandaStore'
@@ -107,3 +107,4 @@ CONCURRENT_REQUESTS_PER_DOMAIN = 5
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
